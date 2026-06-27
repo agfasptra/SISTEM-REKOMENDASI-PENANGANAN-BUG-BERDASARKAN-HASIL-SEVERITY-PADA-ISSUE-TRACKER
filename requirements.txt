@@ -1,0 +1,34 @@
+# ============================================================
+# Requirements — Sistem Rekomendasi Penanganan Bug
+# Tahap 1: Akuisisi Data
+# ============================================================
+
+# HTTP Client
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Membaca file .env secara otomatis
+python-dotenv>=1.0.0
+
+# Data manipulation (digunakan di tahap selanjutnya)
+pandas>=2.1.0
+numpy>=1.26.0
+
+# ============================================================
+# Catatan untuk tahap selanjutnya (uncomment saat dibutuhkan):
+# ============================================================
+
+# NLP & Preprocessing (Tahap 2)
+# nltk>=3.8.1
+# scikit-learn>=1.3.0
+
+# Class Imbalance (Tahap 2)
+# imbalanced-learn>=0.11.0
+
+# Machine Learning (Tahap 3)
+# xgboost>=2.0.0
+
+# Backend API (Tahap 4)
+# fastapi>=0.104.0
+# uvicorn[standard]>=0.24.0
+# pydantic>=2.4.0
